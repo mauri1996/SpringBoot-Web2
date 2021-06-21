@@ -1,0 +1,13 @@
+### Get customer Service
+GET http://localhost:8091/customer-service/default
+
+### Get Product Service
+GET http://root:s3cr3t@localhost:8091/service-product/default
+
+
+### Get customer Service
+GET http://root:s3cr3t@localhost:8090/customer-service/default
+
+
+### Get customer Service with config server
+GET http://localhost:8091/customers
