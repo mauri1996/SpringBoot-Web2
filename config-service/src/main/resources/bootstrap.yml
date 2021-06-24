@@ -10,8 +10,7 @@ spring:
           searchPaths: config-data
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
-          default-label: "java-1.8-completo"
   security:
     user:
       name: root
-      password: s3cr3t  
+      password: s3cr3t
