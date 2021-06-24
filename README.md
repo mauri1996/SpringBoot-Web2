@@ -3,14 +3,12 @@
 
 ## Requirements
 
-- Java 1.8 
-
+- Java 11 
 - Spring Boot 2
 - Gradle 
 - CURL
 - JQ
 - Docker
-- Hystrix -> circuito que controla la caida de servicios
 
 ## Services
 
