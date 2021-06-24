@@ -6,10 +6,12 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/digitallab-academy/ms-course-youtube.git
+          uri: https://github.com/mauri1996/SpringBoot-Web2.git
           searchPaths: config-data
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
+          default-label: "java-1.8-completo"
+
   security:
     user:
       name: root
