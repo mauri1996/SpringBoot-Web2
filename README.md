@@ -3,7 +3,7 @@
 
 ## Requirements
 
-- Java 11 
+- Java 16 
 - Spring Boot 2
 - Gradle 
 - CURL
