@@ -1,4 +1,3 @@
-#Application Configuration
 server:
   port: 8099
 

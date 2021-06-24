@@ -3,6 +3,6 @@ spring:
     name: shopping-service
   cloud:
     config:
-      uri: http://localhost:8090
+      uri: http://localhost:8081
       username: root
       password: s3cr3t

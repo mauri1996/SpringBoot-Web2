@@ -1,0 +1,16 @@
+### Get
+GET http://localhost:8091/products
+
+
+### post
+POST http://localhost:8091/products HTTP/1.1
+content-type: application/json
+
+{
+"name":"Wallabee Mens Suede Shoe",
+"description":"Comfort and tendency do not have to be at odds. This suede wallabee style shoe is all you need for marathon work days. With soft suede design and stitched details, it is perfect to combine with jeans",
+"stock":4,
+"price":30,
+"category":{"id":1,"name": "shoes"}
+}
+

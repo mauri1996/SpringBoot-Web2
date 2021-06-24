@@ -1,0 +1,27 @@
+### Get
+GET http://localhost:8091/invoices
+
+
+### post
+POST http://localhost:8091/invoices HTTP/1.1
+content-type: application/json
+
+{
+
+    "numberInvoice": "002",
+    "description": "invoice store",
+    "customerId": 1,
+    "items": [
+        {
+            "quantity": 1,
+            "priceItem": 178.89,
+            "productId": 1
+        },
+
+        {
+            "quantity": 2,
+            "priceItem": 40.06,
+            "productId": 3
+        }
+    ]
+}
